@@ -36,3 +36,18 @@ yarn add -D prettier
   "format:js:fix": "prettier -w (directory)"
 }
 ```
+
+### jQuery
+If you use jQuery, you must install eslint-plugin-jquery and add following in .eslintrc.js
+```bash
+# Install dependencies
+yarn add -D eslint-plugin-jquery
+```
+```bash
+module.exports = {
+  env: {
+    jquery: true
+  },
+  plugins: ["jquery"]
+}
+```
