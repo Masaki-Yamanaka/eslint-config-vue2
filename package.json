@@ -4,7 +4,9 @@
   "description": "A configuration of ESLint for Vue 2.x",
   "scripts": {
     "lint:js": "eslint . --ext .js,.vue",
-    "lint:js:fix": "eslint . --ext .js,.vue --fix"
+    "lint:js:fix": "eslint . --ext .js,.vue --fix",
+    "format:js": "prettier -c .",
+    "format:js:fix": "prettier -w ."
   },
   "author": "Masaki Yamanaka",
   "license": "ISC",
@@ -14,7 +16,8 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.2",
-    "eslint-plugin-vue": "^7.9.0"
+    "eslint-plugin-vue": "^7.9.0",
+    "prettier": "^2.3.0"
   },
   "dependencies": {}
 }
