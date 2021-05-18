@@ -28,6 +28,7 @@ Since turned off all rules that might conflict with Prettier, please make sure P
 yarn add -D prettier
 ```
 
+- Copy .prettierrc
 - Add following scripts in package.json
 
 ```bash
@@ -38,11 +39,14 @@ yarn add -D prettier
 ```
 
 ### jQuery
+
 If you use jQuery, you must install eslint-plugin-jquery and add following in .eslintrc.js
+
 ```bash
 # Install dependencies
 yarn add -D eslint-plugin-jquery
 ```
+
 ```bash
 module.exports = {
   env: {

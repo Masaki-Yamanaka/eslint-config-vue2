@@ -5,8 +5,8 @@
   "scripts": {
     "lint:js": "eslint . --ext .js,.vue",
     "lint:js:fix": "eslint . --ext .js,.vue --fix",
-    "format:js": "prettier -c .",
-    "format:js:fix": "prettier -w ."
+    "format:js": "prettier . -c ",
+    "format:js:fix": "prettier . --write"
   },
   "author": "Masaki Yamanaka",
   "license": "ISC",
