@@ -22,5 +22,17 @@ module.exports = {
     "vue/html-indent": "off",
     "vue/custom-event-name-casing": "error",
     "vue/component-name-in-template-casing": [`error`, `PascalCase`],
+    "vue/html-self-closing": [
+      "error",
+      {
+        "html": {
+          "void": "always",
+          "normal": "always",
+          "component": "always"
+        },
+        "svg": "always",
+        "math": "always"
+      }
+    ],
   },
 };
