@@ -5,7 +5,6 @@ Configuration of ESLint for Vue 2.x
 ## Usage
 
 ```bash
-# Install dependencies
 yarn add -D babel-eslint eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import eslint-plugin-vue
 ```
 
@@ -24,7 +23,6 @@ yarn add -D babel-eslint eslint eslint-config-airbnb-base eslint-config-prettier
 Since turned off all rules that might conflict with Prettier, please make sure Prettier is installed.
 
 ```bash
-# Install dependencies
 yarn add -D prettier
 ```
 
@@ -43,7 +41,6 @@ yarn add -D prettier
 If you use jQuery, you must install eslint-plugin-jquery and add following in .eslintrc.js
 
 ```bash
-# Install dependencies
 yarn add -D eslint-plugin-jquery
 ```
 
