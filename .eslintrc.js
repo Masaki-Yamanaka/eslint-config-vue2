@@ -15,6 +15,7 @@ module.exports = {
     "prefer-template": "error",
     "operator-linebreak": [2, "after"],
     "import/no-unresolved": [2, { ignore: ["^@components"] }],
+    "camelcase": "off",
     "vue/camelcase": "error",
     "vue/singleline-html-element-content-newline": "off",
     "vue/html-closing-bracket-newline": "off",
